@@ -1,10 +1,10 @@
 module.exports = {
+  darkMode: 'class', // Enable class-based dark mode
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       animation: {
         fadeIn: 'fadeIn 1.5s ease-in-out',
-        pulseSlow: 'pulse 3s infinite',
       },
       keyframes: {
         fadeIn: {
